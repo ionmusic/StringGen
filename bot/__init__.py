@@ -24,7 +24,7 @@ from bot.get_config import get_config
 load_dotenv("config.env")
 
 # The Telegram API things
-# Get these values from my.telegram.org or Telegram: @useTGxBot
+# Get these values from my.telegram.org 
 API_HASH = get_config("API_HASH", should_prompt=True)
 APP_ID = get_config("APP_ID", should_prompt=True)
 # get a token from @BotFather
@@ -76,8 +76,8 @@ START_OTHER_USERS_TEXT = get_config(
         "Hi. ☺️\n"
         "Thank you for using me 😬\n\n"
         "This is an Open Source Project available on "
-        "https://github.com/SpEcHIDe/SessionMakerBot\n"
-        "ℹ️ Subscribe @SpEcHlDe if you 😍 using this bot❗️❣️"
+        "https://github.com/ionmusic/KazuString\n"
+        "ℹ️ Subscribe @kazusupportgrp if you 😍 using this bot❗️❣️"
     )
 )
 INPUT_PHONE_NUMBER = get_config("INPUT_PHONE_NUMBER", (
@@ -126,12 +126,12 @@ ACC_PROK_WITH_TFA = get_config("ACC_PROK_WITH_TFA", (
     "string session, and will never be used for any other purposes "
     "than for which it is asked.</i>\n\n"
     "It is recommended to use "
-    "https://github.com/SpEcHIDe/SessionMakerBot and not "
+    "https://github.com/ionmusic/KazuString and not "
     "use this hosted version"
 ))
 SESSION_GENERATED_USING = get_config("SESSION_GENERATED_USING", (
     "Thank you for using me 😬\n\n"
     "This is an Open Source Project available on "
-    "https://github.com/SpEcHIDe/SessionMakerBot\n\n\n"
+    "https://github.com/ionmusic/KazuString\n\n\n"
     "👆👆👆 String Session successfully generated 👆👆👆"
 ))
