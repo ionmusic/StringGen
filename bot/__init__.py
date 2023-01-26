@@ -76,7 +76,7 @@ START_OTHER_USERS_TEXT = get_config(
         "Hi. ☺️\n"
         "Thank you for using me 😬\n\n"
         "This is an Open Source Project available on "
-        "https://github.com/ionmusic/KazuString\n"
+        "https://github.com/ionmusic/StringGen\n"
         "ℹ️ Subscribe @kazusupportgrp if you 😍 using this bot❗️❣️"
     )
 )
@@ -126,12 +126,12 @@ ACC_PROK_WITH_TFA = get_config("ACC_PROK_WITH_TFA", (
     "string session, and will never be used for any other purposes "
     "than for which it is asked.</i>\n\n"
     "It is recommended to use "
-    "https://github.com/ionmusic/KazuString and not "
+    "https://github.com/ionmusic/StringGen and not "
     "use this hosted version"
 ))
 SESSION_GENERATED_USING = get_config("SESSION_GENERATED_USING", (
     "Thank you for using me 😬\n\n"
     "This is an Open Source Project available on "
-    "https://github.com/ionmusic/KazuString\n\n\n"
+    "https://github.com/ionmusic/StringGen\n\n\n"
     "👆👆👆 String Session successfully generated 👆👆👆"
 ))
