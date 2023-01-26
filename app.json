@@ -8,7 +8,7 @@
         "modular",
         "productivity"
     ],
-    "repository": "https://github.com/iskandar777-dar/SessionMakerBot",
+    "repository": "https://github.com/ionmusic/KazuString",
     "website": "https://telegram.dog/UniBorg",
     "success_url": "https://t.me/UniBorg/55",
     "env": {
@@ -28,7 +28,7 @@
     "formation": {
         "worker": {
             "quantity": 1,
-            "size": "eco"
+            "size": "basic"
         }
     }
 }
