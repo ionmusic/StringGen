@@ -77,7 +77,7 @@ async def recv_tg_code_message(_, message: Message):
         w_s_dict["IS_NEEDED_TFA"] = True
     else:
         saved_message_ = await status_message.edit_text(
-            "<code>" + str(await loical_ci.export_session_string()) + "</code>"
+            f"<code>{str(await loical_ci.export_session_string())}</code>"
         )
         await saved_message_.reply_text(
             SESSION_GENERATED_USING,
